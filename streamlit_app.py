@@ -38,7 +38,7 @@ In the meantime, below is an example of what you can do with just a few lines of
      #    .encode(x='x:Q', y='y:Q'))
 #Writing python code
 #Here we can change the code and run any no. of times
-%%writefile app.py
+#%%writefile app.py
 import streamlit as st
 st.title('Streamlit Example')
 st.header('Rating different animes')
