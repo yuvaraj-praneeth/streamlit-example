@@ -20,7 +20,7 @@ if genre == 'PC':
   S4=st.slider('Tekken',0.0,5.0,step=0.5)
 
 elif genre == 'Romance':
-  st.subheader('Genre:- Romance)
+  st.subheader('Genre:- Romance')
   st.image('https://www.kolpaper.com/wp-content/uploads/2021/02/Horimiya-Wallpaper-HD.jpg')
   R1=st.slider('Horimiya',0.0,5.0,step=0.5)
   st.image('https://wallpapercave.com/wp/wp8650031.jpg')
