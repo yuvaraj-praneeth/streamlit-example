@@ -8,15 +8,15 @@ genre = st.sidebar.selectbox(
 st.write('**You selected:**', genre)
 if genre == 'PC':
   st.subheader('Device: - PC')
-  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fabandonwaregames.net%2Fgame%2Froad-rash&psig=AOvVaw1M3I5hIBJ8Lg3mroFOVRMN&ust=1629556341858000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNif7tPov_ICFQAAAAAdAAAAABAJ')
+  st.image('https://worldofpcgames.co/wp-content/uploads/2016/11/Road-Rash-PC-Game-Download-By-Worldofpcgames.net_.png.webp')
   S1=st.slider('Road Rash',0.0,5.0,step=0.5)
-  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgamesystemrequirements.com%2Fgame%2Fneed-for-speed-most-wanted&psig=AOvVaw0Nbn7v0sSqTTCSdweUWkVX&ust=1629559041750000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCJ29Dyv_ICFQAAAAAdAAAAABAD')
+  st.image('https://gepig.com/game_cover_460w/297.jpg')
   S2=st.slider('Need for Speed Most Wanted',0.0,5.0,step=0.5)
-  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FGrand-Theft-Auto-Vice-City%2Fdp%2FB00CF354UG&psig=AOvVaw0wfC6ZVEhWUYiCHGyM2zza&ust=1629559091687000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDgh-vyv_ICFQAAAAAdAAAAABAJ')
+  st.image('https://images-na.ssl-images-amazon.com/images/I/51-IGGUe5ZL.png')
   S3=st.slider('GTA: Vice City',0.0,5.0,step=0.5)
-  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdetvL9SECGQ&psig=AOvVaw3cJeHHduFYJ1XMEPQbfYfa&ust=1629559193036000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCAqZvzv_ICFQAAAAAdAAAAABAS')
+  st.image('https://i.ytimg.com/vi/detvL9SECGQ/maxresdefault.jpg')
   S4=st.slider('Mortal Kombat',0.0,5.0,step=0.5)
-  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftekken.fandom.com%2Fwiki%2FTekken_6&psig=AOvVaw3KySyRRflR0T8RcncDiUSG&ust=1629559371098000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjJm_Hzv_ICFQAAAAAdAAAAABAI')
+  st.image('https://img.redbull.com/images/c_crop,w_1350,h_900,x_0,y_0,f_auto,q_auto/c_scale,w_1500/redbullcom/2017/06/01/1331859375452_2/tekken-7-heihachi-kazuya.jpg.jpg')
   S4=st.slider('Tekken',0.0,5.0,step=0.5)
 
 elif genre == 'Romance':
