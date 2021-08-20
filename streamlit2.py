@@ -1,1 +1,41 @@
-
+import streamlit as st
+st.title('Streamlit Example 2')
+st.header('Different Games That you have played in your childhood')
+st.write("**Open the sidebar on your left top corner to select the device **")
+genre = st.sidebar.selectbox(
+     "Device:",
+     ('None','PC', 'Hand Consoles', 'Play Station','Xbox'))
+st.write('**You selected:**', genre)
+if genre == 'PC':
+  st.subheader('Device: - PC')
+  st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fabandonwaregames.net%2Fgame%2Froad-rash&psig=AOvVaw1M3I5hIBJ8Lg3mroFOVRMN&ust=1629556341858000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNif7tPov_ICFQAAAAAdAAAAABAJ')
+  S1=st.slider('Road Rash',0.0,5.0,step=0.5)
+  st.image('https://wallpapercave.com/wp/wp1894643.jpg')
+  S2=st.slider('My Hero Academia',0.0,5.0,step=0.5)
+  st.image('https://wallpapercave.com/wp/8fMMJWX.jpg')
+  S3=st.slider('Naruto',0.0,5.0,step=0.5)
+  st.image('https://image.winudf.com/v2/image1/bWUuYXppYXBwLnZpbmxhbmRzYWdhd2FsbHBhcGVyX3NjcmVlbl8yXzE1NzIwOTM2NzRfMDQ1/screen-2.jpg?fakeurl=1&type=.jpg')
+  S4=st.slider('Vinland Saga',0.0,5.0,step=0.5)
+  st.write('**Average Rating of Shounen genre** = ', (S1+S2+S3+S4)/4)
+elif genre == 'Romance':
+  st.subheader('Genre:- Romance')
+  st.image('https://www.kolpaper.com/wp-content/uploads/2021/02/Horimiya-Wallpaper-HD.jpg')
+  R1=st.slider('Horimiya',0.0,5.0,step=0.5)
+  st.image('https://wallpapercave.com/wp/wp8650031.jpg')
+  R2=st.slider('Bottom-Tier Character Tomozaki-kun',0.0,5.0,step=0.5)
+  st.image('https://c4.wallpaperflare.com/wallpaper/166/158/478/clannad-clannad-after-story-okazaki-nagisa-okazaki-tomoya-wallpaper-preview.jpg')
+  R3=st.slider('Clannad',0.0,5.0,step=0.5)
+  st.image('https://wallpaperaccess.com/full/619632.jpg')
+  R4=st.slider('Kimi no Na Wa',0.0,5.0,step=0.5)
+  st.write('**Average Rating of Romace genre** = ', (R1+R2+R3+R4)/4)
+elif genre == 'Sports':
+  st.subheader('Genre:- Sports')
+  st.image('https://c4.wallpaperflare.com/wallpaper/430/354/442/haikyuu-haikyuu-hinata-shouyou-kageyama-tobio-azumane-asahi-hd-wallpaper-preview.jpg')
+  SP1=st.slider('Haikyuu!',0.0,5.0,step=0.5)
+  st.image('https://wallpaperaccess.com/full/1648578.jpg')
+  SP2=st.slider('Diamond no Ace',0.0,5.0,step=0.5)
+  st.image('https://images2.alphacoders.com/267/267400.jpg')
+  SP3=st.slider('Kuroko no Baske',0.0,5.0,step=0.5)
+  st.image('https://wallpapercave.com/wp/wp9165028.jpg')
+  SP4=st.slider('Burning Kabaddi',0.0,5.0,step=0.5)
+  st.write('**Average Rating of Sports genre** = ', (SP1+SP2+SP3+SP4)/4) 
