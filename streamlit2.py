@@ -1,15 +1,17 @@
 import streamlit as st
-st.title('Streamlit Example 2')
-st.header('Different Games That you have played in your childhood')
-st.write("**Open the sidebar on your left top corner to select the device **")
+st.title('NutryUS')
+st.image('https://image.shutterstock.com/image-photo/best-menu-healthy-body-collage-260nw-1679266360.jpg')
+st.header('Your new diet Dormitory Mother')
+st.write("**Open the sidebar the type of meal on your left top corner to select **")
 genre = st.sidebar.selectbox(
-     "Device:",
-     ('None','PC','Romance','Sports'))
+     "Meal:",
+     ('None','Breakfast','Lunch','Dinner'))
 st.write('**You selected:**', genre)
-if genre == 'PC':
-  st.subheader('Device: - PC')
-  st.image('https://worldofpcgames.co/wp-content/uploads/2016/11/Road-Rash-PC-Game-Download-By-Worldofpcgames.net_.png.webp')
-  S1=st.slider('Road Rash',0.0,5.0,step=0.5)
+if genre == 'Breakfast':
+  st.subheader('Device:- ',genre)
+  st.write('Idly')
+  st.image('https://mk0geekrobocook3p2m6.kinstacdn.com/wp-content/uploads/2021/03/30_Idly.jpg')
+  S1=st.slider('Quantity',0.0,5.0,step=0.5)
   st.image('https://gepig.com/game_cover_460w/297.jpg')
   S2=st.slider('Need for Speed Most Wanted',0.0,5.0,step=0.5)
   st.image('https://images-na.ssl-images-amazon.com/images/I/51-IGGUe5ZL.png')
