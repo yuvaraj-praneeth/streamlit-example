@@ -43,4 +43,3 @@ elif genre == 'Sports':
   st.image('https://wallpapercave.com/wp/wp9165028.jpg')
   SP4=st.slider('Burning Kabaddi',0.0,5.0,step=0.5)
   st.write('**Average Rating of Sports genre** = ', (SP1+SP2+SP3+SP4)/4) 
-[URL=http://s05.flagcounter.com/more/mPJQ][IMG]https://s05.flagcounter.com/map/mPJQ/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/[/IMG][/URL]
