@@ -25,7 +25,7 @@ elif genre == 'Romance':
   R2=st.slider('Bottom-Tier Character Tomozaki-kun',0.0,5.0,step=0.5)
   st.image('https://c4.wallpaperflare.com/wallpaper/166/158/478/clannad-clannad-after-story-okazaki-nagisa-okazaki-tomoya-wallpaper-preview.jpg')
   R3=st.slider('Clannad',0.0,5.0,step=0.5)
-  st.image('https://wallpaperaccess.com/full/619632.jpg')
+  st.image('https://images8.alphacoders.com/737/thumb-1920-737474.png')
   R4=st.slider('Kimi no Na Wa',0.0,5.0,step=0.5)
   st.write('**Average Rating of Romace genre** = ', (R1+R2+R3+R4)/4)
 elif genre == 'Sports':
